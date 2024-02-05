@@ -1,0 +1,75 @@
+
+# Progressive Savings Calculator Documentation
+
+## Overview
+
+The Progressive Savings Calculator is a JavaScript-based application that helps users plan and calculate their savings using a progressive savings plan. The plan involves depositing an increasing amount of money into a savings jar each week. The user provides the initial amount they want to start with in the first week, and the calculator computes the total savings at the end of the year.
+
+## Usage
+
+### Prerequisites
+
+- A web browser with JavaScript support or a JavaScript runtime environment like Node.js.
+
+### Instructions
+
+1. **Open the Calculator**
+
+   - If using a web browser, open the browser's developer console.
+   - If using Node.js, create a new JavaScript file and copy the code into the file.
+
+2. **Run the Calculator**
+
+   - Copy and paste the provided JavaScript code into the console or your JavaScript file.
+
+3. **Enter Initial Amount**
+
+   - The application will prompt you to enter the amount you want to start with in the first week. Input a positive numerical value and press Enter.
+
+4. **View Results**
+
+   - The calculator will display the total savings at the end of the year based on the progressive savings plan.
+
+5. **Repeat as Needed**
+
+   - You can run the calculator multiple times with different initial amounts to explore various saving scenarios.
+
+## Logic Behind the App
+
+The calculator follows a straightforward logic:
+
+1. **User Input**
+
+   - The user provides the initial amount they want to start with in the first week.
+
+2. **Loop Through Weeks**
+
+   - The application uses a loop to iterate through each week of the year (52 weeks).
+
+3. **Progressive Savings Plan**
+
+   - For each week, the initial amount provided by the user is added to the total savings.
+   - The initial amount is then incremented by 1 for the next week, creating a progressive savings plan.
+
+4. **Total Savings Calculation**
+
+   - The total savings at the end of the year is the sum of all weekly contributions.
+
+5. **Display Result**
+
+   - The application displays the calculated total savings in the console or output window.
+
+## Example
+
+Suppose the user starts with an initial amount of $5 in the first week. The progressive savings plan would be as follows:
+
+- Week 1: $5
+- Week 2: $6
+- Week 3: $7
+- ...
+- Week 52: $56
+
+The total savings at the end of the year would be the sum of these amounts, which is displayed by the calculator.
+
+---
+
